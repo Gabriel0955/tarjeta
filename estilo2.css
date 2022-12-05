@@ -45,9 +45,18 @@ button:hover{
 }
 .bo{
     margin-top: 70px;
+    color: darkviolet;
+    background-color: rgb(255, 0, 191);
 }
 .boe{
     margin-top: 140px;
+    color: darkviolet;
+    background-color: rgb(255, 0, 191);
 
 }
-
+.bo:hover{
+    background-color: aqua;
+}
+.boe:hover{
+    background-color: aqua;
+}
