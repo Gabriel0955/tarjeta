@@ -2,12 +2,12 @@ body{
     background-image: url(https://lumiere-a.akamaihd.net/v1/images/pp_princess_aurora_static_mobile_20694_3d25608a.jpeg?region=0%2C0%2C640%2C480);
 
     backdrop-filter: blur(5px);
+    width: 100vh;
+    height: 100vh;
 }
 .content{
     text-align: center;
     display: block;
-    width: 150px min-content;
-    height: 150 px max-content;
 }
 
 .logoau{
