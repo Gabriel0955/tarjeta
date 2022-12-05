@@ -28,7 +28,7 @@ h1{
 .hijo{
     width: 450px;
     font-size: 25px;
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
 }
@@ -43,7 +43,7 @@ button{
     border-color: aqua;
     font-size: 30px;
     padding: 5px;
-    margin: 10px;
+    margin: 1px;
     
 }
 button:hover{
