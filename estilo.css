@@ -6,6 +6,8 @@ body{
 .content{
     text-align: center;
     display: block;
+    width: 150px min-content;
+    height: 150 px max-content;
 }
 
 .logoau{
