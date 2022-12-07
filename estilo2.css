@@ -15,16 +15,28 @@ body{
 h1{
     text-align: center;
     color: rgb(255, 0, 85);
-    text-shadow: 5px 5px 8px rgb(0, 255, 191);
+    text-shadow: 1px 5px 8px rgb(0, 255, 191);
     font-style: oblique;
     font-size: 40px;
     margin-bottom: 15px;
+    transition: 2s;
+}
+h1:hover{
+    color: rgb(71, 59, 145);
+    transition: 2s;
+
 }
 .parrafo{
     font-size: 28px;
     color: rgb(31, 245, 138);
-    text-shadow: 5px 5px 10px rgb(0, 17, 255);
+    text-shadow: 1px 2px 5px rgb(0, 17, 255);
     margin-bottom: 15px;
+    transition: 2s;
+}
+.parrafo:hover{
+    color: rgb(132, 0, 255);
+    text-shadow: 1px 2px 5px rgb(51, 255, 0);
+    transition: 3s;
 }
 .foto{
     margin-bottom: 15px;
@@ -37,36 +49,61 @@ button{
     font-size: 30px;
     padding: 5px;
     margin-bottom: 15px;
+    transition: 3s;
+    text-shadow: 1px 1px 5px black;
 }
 button:hover{
     color: rgb(255, 0, 234);
     background-color: rgb(0, 89, 255);
     border-radius: 1rem;
     transition: 2s;
+    text-shadow: 1px 1px 5px black;
 }
 .bo{
     margin-top: 70px;
     color: darkviolet;
     background-color: rgb(43, 255, 0);
+    text-shadow: 1px 1px 5px black;
+    
 }
 .boe{
     margin-top: 140px;
     color: darkviolet;
     background-color: rgb(0, 255, 21);
+    text-shadow: 1px 1px 5px black;
 
 }
 .bo:hover{
     background-color: aqua;
+    text-shadow: 1px 1px 5px black;
 }
 .boe:hover{
     background-color: aqua;
+    text-shadow: 1px 1px 5px black;
 }
 .bp{
     color: darkviolet;
     background-color: rgb(0, 255, 21);
+    text-shadow: 1px 1px 5px black;
 
+}
+.bp{
+    text-shadow: 1px 1px 5px black;
 }
 .nom{
     color: rgb(234, 0, 255);
     text-shadow: 5px 5px 5px rgb(6, 69, 255);
 }
+.click{
+    color: black;
+}
+.padres{
+    display: block;
+    text-align: center;
+
+}
+.aurora2{
+    width: 150px;
+    margin-bottom: 5px;
+}
+
